@@ -65,11 +65,11 @@ class War:
                 self.wars += 1
 
                 
-                player1Cards_onTable.extend([p1FightingCard] + self.player1.playerDeck[-1:])  #Draw 1 cards and add it to table along with card in hand
-                self.player1.playerDeck = self.player1.playerDeck[:-1]                        #Remove top cards from deck
+                player1Cards_onTable.extend([p1FightingCard] + self.player1.playerDeck[-3:])  #Draw 1 cards and add it to table along with card in hand
+                self.player1.playerDeck = self.player1.playerDeck[:-3]                        #Remove top cards from deck
 
-                player2Cards_onTable.extend([p2FightingCard] + self.player2.playerDeck[-1:])  #Draw cards and add it to table along with card in hand
-                self.player2.playerDeck = self.player2.playerDeck[:-1]                        #Remove top cards from deck
+                player2Cards_onTable.extend([p2FightingCard] + self.player2.playerDeck[-3:])  #Draw cards and add it to table along with card in hand
+                self.player2.playerDeck = self.player2.playerDeck[:-3]                        #Remove top cards from deck
 
             #If player 1 has a stronger card
             elif (p1FightingCard > p2FightingCard):
