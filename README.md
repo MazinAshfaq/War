@@ -17,6 +17,8 @@ If you don't have enough cards to complete the war, you lose. If neither player 
 ## Assumptions
 An assumptions that I made were that the order in which the winners cards are put into the deck does not matter as long as they are at the bottom of the deck. Another assumption I went with was when war occurs, three cards are placed and one more is compared to find the winner. There are multiple sets of rules, some of which say only one card needs to be drawn in war.
 
+## Corner Case
 A corner case that I ran into was when adding winners cards back into the pile. In some cases it would result in infinit games. I fixed this by alternating the way the winning cards were placed into the deck, and this fixed the infinite games.
 
+## Future Work
 If given more time I would make the game more moduler by refactoring and creating more functions for repeated actions. I would also like to add a "card" class which would allow for keeping track of the suit, just for nice playability. Maybe even add a GUI which animations to let the player enjoy the game in action. 
