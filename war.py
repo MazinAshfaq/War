@@ -97,12 +97,12 @@ class War:
                 if(len(self.player2.playerDeck) == 0):
                     print("Both players have ran out of cards, it is a draw...")
                 else:
-                    print("The Battle is Over, {} has no more cards to fight, {} is the Victor...".format(self.player1.name,self.player2.name))  
+                    print("\nThe Battle is Over, {} has no more cards to fight, {} is the Victor...".format(self.player1.name,self.player2.name))  
         else:
-                 print("The Battle is Over, {} has no more cards to fight, {} is the Victor...".format(self.player2.name,self.player1.name))\
+                 print("\nThe Battle is Over, {} has no more cards to fight, {} is the Victor...".format(self.player2.name,self.player1.name))\
 
         #Print game details
-        print("The Battle Lasted for {} Rounds and There Were {} Wars!".format(self.rounds,self.wars))
+        print("\nThe Battle Lasted for {} Rounds and There Were {} Wars!".format(self.rounds,self.wars))
         print("CPU has {} cards. \n".format(len(self.player1.playerDeck)))
         print("{} has {} cards \n".format(self.player2.name,len(self.player2.playerDeck)))
         print("The rest were lost in the battle field...")
