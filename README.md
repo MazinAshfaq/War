@@ -1,6 +1,6 @@
 # War (card game) implemented in python!
 
-###War for two players rules
+##War for two players rules
 In the basic game there are two players and you use a standard 52 card pack. Cards rank as usual from high to low: A K Q J T 9 8 7 6 5 4 3 2. Suits are ignored in this game.
 
 Deal out all the cards, so that each player has 26. Players do not look at their cards, but keep them in a packet face down. The object of the game is to win all the cards.
@@ -14,7 +14,7 @@ The game continues until one player has all the cards and wins. This can take a 
 If you don't have enough cards to complete the war, you lose. If neither player has enough cards, the one who runs out first loses. If both run out simultaneously, it's a draw. Example: Players A and B both play sevens, so there is a war. Each player plays a card face down, but this is player B's last card. Player A wins, since player B does not have enough cards to fight the war.
 
 
-###Assumptions
+##Assumptions
 An assumptions that I made were that the order in which the winners cards are put into the deck does not matter as long as they are at the bottom of the deck. Another assumption I went with was when war occurs, three cards are placed and one more is compared to find the winner. There are multiple sets of rules, some of which say only one card needs to be drawn in war.
 
 A corner case that I ran into was when adding winners cards back into the pile. In some cases it would result in infinit games. I fixed this by alternating the way the winning cards were placed into the deck, and this fixed the infinite games.
