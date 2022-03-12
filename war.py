@@ -8,7 +8,7 @@ class Deck:
         random.shuffle(self.cards)
 
 class Player:
-    def __init__(self,name,playerDeck)
+    def __init__(self,name,playerDeck):
         """
         Constructor for creating a player 
         """
