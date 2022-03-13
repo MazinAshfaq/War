@@ -13,6 +13,8 @@ The game continues until one player has all the cards and wins. This can take a 
 
 If you don't have enough cards to complete the war, you lose. If neither player has enough cards, the one who runs out first loses. If both run out simultaneously, it's a draw. Example: Players A and B both play sevens, so there is a war. Each player plays a card face down, but this is player B's last card. Player A wins, since player B does not have enough cards to fight the war.
 
+Additional information can be found here:
+https://en.wikipedia.org/wiki/War_(card_game)
 
 ## Assumptions
 An assumptions that I made were that the order in which the winners cards are put into the deck does not matter as long as they are at the bottom of the deck. Another assumption I went with was when war occurs, three cards are placed and one more is compared to find the winner. There are multiple sets of rules, some of which say only one card needs to be drawn in war.
