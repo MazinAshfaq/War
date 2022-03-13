@@ -17,7 +17,7 @@ Additional information can be found here:
 https://en.wikipedia.org/wiki/War_(card_game)
 
 ## Assumptions
-An assumptions that I made were that the order in which the winners cards are put into the deck does not matter as long as they are at the bottom of the deck. Another assumption I went with was when war occurs, three cards are placed and one more is compared to find the winner. There are multiple sets of rules, some of which say only one card needs to be drawn in war.
+An assumptions that I made were that the order in which the winners cards are put into the deck does not matter as long as they are at the bottom of the deck. Another assumption I went with was when war occurs, three cards are placed and one more is compared to find the winner. There are multiple sets of rules, some of which say only one card needs to be drawn in war. One last assumption was being allowed to import modules to aid the program. 
 
 ## Corner Case
 A corner case that I ran into was when adding winners cards back into the pile. In some cases it would result in infinit games. I fixed this by alternating the way the winning cards were placed into the deck, and this fixed the infinite games.
