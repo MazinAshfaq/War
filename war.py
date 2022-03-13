@@ -1,3 +1,11 @@
+"""
+Mazin Ashfaq
+War game in Python
+3/12/2022
+
+This is an implementation of the card game in python using some OOP techniques.
+The game is played against the CPU and plays out until one player is left with no cards
+"""
 import random
 class Deck:
     def __init__(self):
@@ -32,7 +40,6 @@ class War:
             half1 = self.deck.cards[:26] #Spit Deck for each player
             half2 = self.deck.cards[26:] #Spit Deck for each player
             self.player1 = Player("CPU",half1)
-            #self.player2 = Player(input("Enter your name: "),half2)
             self.player2 = Player("Mazin",half2)
             self.wars = 0
             self.rounds = 0
